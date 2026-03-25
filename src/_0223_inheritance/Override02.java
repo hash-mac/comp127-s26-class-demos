@@ -7,11 +7,11 @@ public class Override02 {
     }
 }
 
-class P {
-    public void do1() {}
-}
-
-class C extends P {
-    public void do1() {}
-    public void do2() {}
-}
+//class P {
+//    public void do1() {}
+//}
+//
+//class C extends P {
+//    public void do1() {}
+//    public void do2() {}
+//}
