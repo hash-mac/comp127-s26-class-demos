@@ -9,5 +9,9 @@ public class Keys {
         Rectangle rec = new Rectangle(0, 0, 20, 30);
         rec.setCenter(cw.getHeight()/2, cw.getWidth()/2);
         cw.add(rec);
+
+        cw.animate(e -> {
+            Set keys = cw.getKeysPressed();
+        });
     }
 }
